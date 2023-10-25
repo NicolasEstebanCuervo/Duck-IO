@@ -1,5 +1,4 @@
 import LikeButton from "./LikeButton";
-import styles from "./listOfPost.module.css";
 import Link from "next/link";
 
 const fetchPost = () => {
@@ -17,7 +16,7 @@ export default async function ListOfPost() {
             <article key={post.id}>
         <Link href={`/post/${post.id}`}>
 
-                <h2 className={styles.title}>{post.title}</h2>
+                <h2>{post.title}</h2>
                 </Link>
                 <p>{post.body}</p>
                 <LikeButton />
