@@ -6,7 +6,7 @@ export default function ContentIndex() {
         <>
             <TitleMain>Bienvenidos a Duck IO</TitleMain>
             <IndividualContainer>
-                <TitlteSection>Blockchain</TitlteSection>
+                <TitleSection>Blockchain</TitleSection>
                 <Paragraph>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Phasellus tincidunt ante id elementum vestibulum. Quisque
@@ -33,7 +33,7 @@ export default function ContentIndex() {
             </IndividualContainer>
 
             <IndividualContainer>
-                <TitlteSection>Robótica y Automatización</TitlteSection>
+                <TitleSection>Robótica y Automatización</TitleSection>
                 <Paragraph>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Phasellus tincidunt ante id elementum vestibulum. Quisque
@@ -60,7 +60,7 @@ export default function ContentIndex() {
             </IndividualContainer>
 
             <IndividualContainer>
-                <TitlteSection>Big Data y Analítica</TitlteSection>
+                <TitleSection>Big Data y Analítica</TitleSection>
                 <Paragraph>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Phasellus tincidunt ante id elementum vestibulum. Quisque
@@ -87,7 +87,7 @@ export default function ContentIndex() {
             </IndividualContainer>
 
             <IndividualContainer>
-                <TitlteSection>Tecnología 5G</TitlteSection>
+                <TitleSection>Tecnología 5G</TitleSection>
                 <Paragraph>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Phasellus tincidunt ante id elementum vestibulum. Quisque
@@ -147,10 +147,10 @@ const IndividualContainer = styled.div`
     margin: 20px;
     background: #e8e5e5;
     border-radius: 10px;
-    padding: 1% 2%;
+    padding: 1% 3%;
 `;
 
-const TitlteSection = styled.h1`
+const TitleSection = styled.h1`
     color: #000;
     font-size: 30px;
     font-weight: 800;
@@ -168,11 +168,11 @@ const TitlteSection = styled.h1`
     }
 
     @media (max-width: 600px) {
-        font-size: 4vw;
+        font-size: 6vw;
     }
 
     @media (max-width: 400px) {
-        font-size: 5vw;
+        font-size:7vw;
     }
 `;
 
