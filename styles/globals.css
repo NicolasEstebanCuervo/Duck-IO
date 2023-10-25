@@ -6,3 +6,9 @@ body{
 main{
   margin: 5%;
 }
+
+@media screen and (max-width: 1200px) {
+  main{
+    margin: 5% 2%;
+  }
+}
