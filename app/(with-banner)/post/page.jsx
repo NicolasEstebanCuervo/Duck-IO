@@ -1,11 +1,11 @@
-import ListOfPost from "./ListOfPost";
+import ListOfPost from "../../../Components/ListOfPost";
 
 
 export default  function PostPage() {
 
     return (
-        <section>
-            <ListOfPost />
-        </section>
+        <>
+            <ListOfPost/>
+        </>
     );
 }

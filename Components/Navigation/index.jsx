@@ -39,7 +39,7 @@ const NavbarComponent = () => {
 
 export default NavbarComponent;
 
-const Navbar = styled.nav`
+const Navbar = styled.div`
     border: 1px solid white;
     border-radius: 5px;
     padding: 1%;

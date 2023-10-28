@@ -148,6 +148,10 @@ const IndividualContainer = styled.div`
     background: #e8e5e5;
     border-radius: 10px;
     padding: 1% 3%;
+
+    @media (max-width: 750px) {
+        padding: 1% 10%;
+    }
 `;
 
 const TitleSection = styled.h1`
