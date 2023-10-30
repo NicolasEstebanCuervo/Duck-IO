@@ -1,13 +1,12 @@
-"use client";
-import styled from "@emotion/styled";
+import styles from "./ContentAbout.module.css";
 
-export default function ContentAbout() {
+export default function ContentAbout ()  {
     return (
         <>
-            <TitleMain>Bienvenidos a Duck IO</TitleMain>
-            <IndividualContainer>
-                <TitleSection>Blockchain</TitleSection>
-                <Paragraph>
+            <h1 className={styles.title_main}>Bienvenidos a Duck IO</h1>
+            <div className={styles.individual_container}>
+                <h1 className={styles.title_section}>Blockchain</h1>
+                <p className={styles.paragraph}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Phasellus tincidunt ante id elementum vestibulum. Quisque
                     varius ligula a ullamcorper consectetur. In consectetur erat
@@ -29,12 +28,12 @@ export default function ContentAbout() {
                     commodo pellentesque ante volutpat nec. Ut elementum nibh
                     sem, ac elementum libero venenatis eu. Pellentesque ultrices
                     enim vestibulum ex aliquam luctus. Donec a commodo metus.
-                </Paragraph>
-            </IndividualContainer>
+                </p>
+            </div>
 
-            <IndividualContainer>
-                <TitleSection>Robótica y Automatización</TitleSection>
-                <Paragraph>
+            <div className={styles.individual_container}>
+                <h1 className={styles.title_section}>Robótica y Automatización</h1>
+                <p className={styles.paragraph}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Phasellus tincidunt ante id elementum vestibulum. Quisque
                     varius ligula a ullamcorper consectetur. In consectetur erat
@@ -56,12 +55,12 @@ export default function ContentAbout() {
                     commodo pellentesque ante volutpat nec. Ut elementum nibh
                     sem, ac elementum libero venenatis eu. Pellentesque ultrices
                     enim vestibulum ex aliquam luctus. Donec a commodo metus.
-                </Paragraph>
-            </IndividualContainer>
+                </p>
+            </div>
 
-            <IndividualContainer>
-                <TitleSection>Big Data y Analítica</TitleSection>
-                <Paragraph>
+            <div className={styles.individual_container}>
+                <h1 className={styles.title_section}>Big Data y Analítica</h1>
+                <p className={styles.paragraph}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Phasellus tincidunt ante id elementum vestibulum. Quisque
                     varius ligula a ullamcorper consectetur. In consectetur erat
@@ -83,12 +82,12 @@ export default function ContentAbout() {
                     commodo pellentesque ante volutpat nec. Ut elementum nibh
                     sem, ac elementum libero venenatis eu. Pellentesque ultrices
                     enim vestibulum ex aliquam luctus. Donec a commodo metus.
-                </Paragraph>
-            </IndividualContainer>
+                </p>
+            </div>
 
-            <IndividualContainer>
-                <TitleSection>Tecnología 5G</TitleSection>
-                <Paragraph>
+            <div className={styles.individual_container}>
+                <h1 className={styles.title_section}>Tecnología 5G</h1>
+                <p className={styles.paragraph}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Phasellus tincidunt ante id elementum vestibulum. Quisque
                     varius ligula a ullamcorper consectetur. In consectetur erat
@@ -110,99 +109,8 @@ export default function ContentAbout() {
                     commodo pellentesque ante volutpat nec. Ut elementum nibh
                     sem, ac elementum libero venenatis eu. Pellentesque ultrices
                     enim vestibulum ex aliquam luctus. Donec a commodo metus.
-                </Paragraph>
-            </IndividualContainer>
+                </p>
+            </div>
         </>
     );
-}
-
-const TitleMain = styled.h1`
-    text-align: center;
-    font-size: 50px;
-    font-weight: 800;
-    color: #fff;
-
-    @media (max-width: 1250px) {
-        font-size: 40px;
-    }
-
-    @media (max-width: 1000px) {
-        font-size: 30px;
-    }
-
-    @media (max-width: 750px) {
-        font-size: 25px;
-    }
-
-    @media (max-width: 600px) {
-        font-size: 7vw;
-    }
-
-    @media (max-width: 400px) {
-        font-size: 8vw;
-    }
-`;
-
-const IndividualContainer = styled.div`
-    margin: 20px;
-    background: #e8e5e5;
-    border-radius: 10px;
-    padding: 1% 3%;
-
-    @media (max-width: 750px) {
-        padding: 1% 10%;
-    }
-`;
-
-const TitleSection = styled.h1`
-    color: #000;
-    font-size: 30px;
-    font-weight: 800;
-
-    @media (max-width: 1250px) {
-        font-size: 25px;
-    }
-
-    @media (max-width: 1000px) {
-        font-size: 20px;
-    }
-
-    @media (max-width: 750px) {
-        font-size: 15px;
-    }
-
-    @media (max-width: 600px) {
-        font-size: 6vw;
-    }
-
-    @media (max-width: 400px) {
-        font-size: 7vw;
-    }
-`;
-
-const Paragraph = styled.p`
-    margin-top: 10px;
-    line-height: 1.5;
-    color: #2c2c2c;
-    font-size: 20px;
-
-    @media (max-width: 1250px) {
-        font-size: 15px;
-        }
-
-    @media (max-width: 1000px) {
-        font-size: 20px;
-    }
-
-    @media (max-width: 750px) {
-        font-size: 15px;
-    }
-
-    @media (max-width: 600px) {
-        font-size: 5vw;
-    }
-
-    @media (max-width: 400px) {
-        font-size: 6vw;
-    }
-`;
+};

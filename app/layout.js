@@ -1,6 +1,5 @@
 import Navigation from "../Components/Navigation";
 import Footer from "../Components/Footer";
-import StyledJsxRegistry from "./registry";
 import { Space_Grotesk } from "@next/font/google";
 import "../styles/globals.css";
 
@@ -24,7 +23,7 @@ export default function RootLayout({ children }) {
             <body className={font.className}>
                 <Navigation />
                 <main>
-                    <StyledJsxRegistry>{children}</StyledJsxRegistry>
+                    {children}
                 </main>
                 <Footer />
             </body>

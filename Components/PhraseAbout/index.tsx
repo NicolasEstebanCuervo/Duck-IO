@@ -1,7 +1,6 @@
-"use client";
-import styled from "@emotion/styled";
+"use client"
 import { useEffect, useState } from "react";
-
+import styles from "./PhraseAbout.module.css"
 export default function PhraseAbout() {
 
     const titlePhrases = [
@@ -47,32 +46,6 @@ export default function PhraseAbout() {
     }, [currentPhrase, currentPhraseIndex, isTyping, titlePhrases]);
 
     return (
-            <TitleHeader>{currentPhrase}</TitleHeader>
+            <h1 className={styles.title_header}>{currentPhrase}</h1>
     );
 }
-const TitleHeader = styled.h1`
-    font-size: 50px;
-    font-weight: 800;
-    color: #ffffff;
-    text-align: center;
-
-    @media (max-width: 1250px) {
-        font-size: 40px;
-    }
-
-    @media (max-width: 1000px) {
-        font-size: 30px;
-    }
-
-    @media (max-width: 750px) {
-        font-size: 25px;
-    }
-
-    @media (max-width: 600px) {
-        font-size: 7vw;
-    }
-
-    @media (max-width: 400px) {
-        font-size: 8vw;
-    }
-`;
