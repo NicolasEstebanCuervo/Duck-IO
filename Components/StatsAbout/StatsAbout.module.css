@@ -12,6 +12,14 @@
     gap: 2vh;
 }
 
+@media (max-width: 1000px) {
+    .sub_about_container {
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+    }
+}
+
 .text_container {
     display: flex;
     flex-direction: column;
@@ -20,10 +28,48 @@
     width: 60%;
 }
 
+@media (max-width: 800px) {
+    .text_container {
+        width: 100%;
+        gap: 1.5vh;
+    }
+}
+
 .main_title {
     font-size: 50px;
     font-weight: 800;
     color: #fff;
+}
+
+@media (max-width: 1250px) {
+    .main_title {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main_title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 750px) {
+    .main_title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .main_title {
+        font-size: 7vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .main_title {
+        font-size: 8vw;
+    }
 }
 
 .description {
@@ -32,9 +78,46 @@
     color: #fff;
 }
 
+@media (max-width: 1250px) {
+    .description {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .description {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+    .description {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .description {
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .description {
+        font-size: 6vw;
+    }
+}
+
 .stats_container {
     display: flex;
     gap: 5%;
+}
+
+@media (max-width: 500px) {
+    .stats_container {
+        flex-direction: column;
+        gap: 2vh;
+    }
 }
 
 .container_individual {
@@ -50,9 +133,69 @@
     color: #fff;
 }
 
+@media (max-width: 1250px) {
+    .number_stat {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .number_stat {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 750px) {
+    .number_stat {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .number_stat {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .number_stat {
+        font-size: 5vw;
+    }
+}
+
 .description_stat {
     text-align: center;
     font-size: 18px;
     margin: 0;
     color: #fff;
+}
+
+@media (max-width: 1250px) {
+    .description_stat {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .description_stat {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+    .description_stat {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .description_stat {
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .description_stat {
+        font-size: 6vw;
+    }
 }
