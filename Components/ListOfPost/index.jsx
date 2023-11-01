@@ -79,7 +79,7 @@ export default async function ListOfPost() {
 
                 <div className={styles.container_comments}>
                     {comments.slice(0, 2).map((comment) => (
-                        <div>
+                        <div className={styles.container_comment}>
                             <div className={styles.container_profile}>
                                 <Image
                                     className={styles.image_profile}

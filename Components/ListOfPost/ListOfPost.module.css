@@ -8,6 +8,12 @@
     color: #fff;
 }
 
+@media (max-width: 400px) {
+    .article_container {
+        gap: 1vh;
+    }
+}
+
 .hr_line{
     width: 100%;
     height: 1px; 
@@ -184,13 +190,23 @@
 
 @media (max-width: 600px) {
     .description_post {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 }
 
 @media (max-width: 400px) {
     .description_post {
         font-size: 4vw;
+    }
+}
+
+.container_comment{
+    padding-bottom: 3vh;
+}
+
+@media (max-width: 400px) {
+    .container_comment {
+        padding-bottom: 1vh;
     }
 }
 
