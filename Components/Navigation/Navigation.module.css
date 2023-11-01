@@ -49,11 +49,13 @@
     gap: 2%;
 }
 
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}
+
 .menu.open {
-    width: 100%;
-    display: flex;
+    background: #fff ;
     flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
 }

@@ -54,7 +54,7 @@ export default async function ListOfPost() {
 
         return (
             <article className={styles.article_container} key={post.id}>
-                <div>
+                <div className={styles.container_post}>
                     <div className={styles.container_profile}>
                         <Image
                             className={styles.image_profile}
@@ -62,48 +62,42 @@ export default async function ListOfPost() {
                             height={50}
                             src={generateProfileImageURL(user.email)}
                         />
-                        <div className={styles.container_names_profile}>
+                        <div>
                             <h1 className={styles.name_profile}>{user.name}</h1>
                             <h3 className={styles.username_profile}>
                                 @{user.username}
                             </h3>
                         </div>
                     </div>
-                    <div>
-                        <h1 className={styles.subtitle_our_services_index}>
-                            {post.title}
-                        </h1>
+                    <div className={styles.container_body}>
+                        <h1 className={styles.title_post}>{post.title}</h1>
                         <p className={styles.description_post}>{post.body}</p>
                     </div>
                 </div>
-                    <div>
+                <div className={styles.container_comments}>
                     {comments.slice(0, 2).map((comment) => (
                         <div>
-                            <div
-                                className={styles.container_comment}
-                                key={comment.id}
-                            >
+                            <div className={styles.container_profile}>
                                 <Image
-                                    className={styles.image_comment}
-                                    width={40}
-                                    height={40}
-                                    src={generateProfileImageURL(comment.email)}
-
+                                    className={styles.image_profile}
+                                    width={50}
+                                    height={50}
+                                    src={generateProfileImageURL(user.email)}
                                 />
-                                <div className={styles.container_names_comment}>
-                                    <h1 className={styles.name_profile_comment}>
+                                <div>
+                                    <h1 className={styles.name_profile}>
                                         {user.name}
                                     </h1>
-                                    <h3 className={styles.username_profile_comment}>
+                                    <h3 className={styles.username_profile}>
                                         @{user.username}
                                     </h3>
                                 </div>
                             </div>
-                            <div className={styles.xd}>
-                                <h1 className={styles.title_comment}>
+                            <div className={styles.container_body}>
+                                <h1 className={styles.title_post}>
                                     {comment.name}
                                 </h1>
-                                <p className={styles.description_comment}>
+                                <p className={styles.description_post}>
                                     {comment.body}
                                 </p>
                             </div>
