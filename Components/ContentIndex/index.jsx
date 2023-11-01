@@ -1,116 +1,89 @@
 import styles from "./ContentIndex.module.css";
 
-export default function ContentIndex ()  {
+export default function ContentIndex() {
     return (
         <>
             <h1 className={styles.title_main}>Bienvenidos a Duck IO</h1>
             <div className={styles.individual_container}>
-                <h1 className={styles.title_section}>Blockchain</h1>
+                <h1 className={styles.title_section}>
+                    Inteligencia Artificial
+                </h1>
                 <p className={styles.paragraph}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus tincidunt ante id elementum vestibulum. Quisque
-                    varius ligula a ullamcorper consectetur. In consectetur erat
-                    non orci mollis egestas. Vivamus vestibulum ipsum in turpis
-                    volutpat, vel congue odio lobortis. Nulla bibendum ex nec
-                    ultricies varius. Morbi semper ullamcorper dui, vitae
-                    sodales nisl sollicitudin eu. Praesent luctus nibh odio, et
-                    laoreet nisi rhoncus in. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. Cras mattis sapien in enim
-                    aliquet, non bibendum sem tristique. Duis fermentum velit
-                    leo. Cras viverra mattis ipsum, sit amet cursus lectus
-                    vulputate id. Vestibulum euismod ullamcorper quam non
-                    fermentum. Fusce convallis ac nunc sit amet accumsan.
-                    Quisque consectetur justo odio, a pharetra purus suscipit
-                    consequat. Sed eu consequat mi. Ut maximus ullamcorper
-                    consectetur. Donec ut tellus mi. Maecenas purus nunc,
-                    accumsan a risus sit amet, pulvinar consequat ipsum. Cras
-                    lacinia maximus suscipit. Morbi lacinia gravida quam,
-                    commodo pellentesque ante volutpat nec. Ut elementum nibh
-                    sem, ac elementum libero venenatis eu. Pellentesque ultrices
-                    enim vestibulum ex aliquam luctus. Donec a commodo metus.
+                    La inteligencia artificial (IA) es una revolucionaria rama
+                    de la informática que se centra en desarrollar sistemas
+                    capaces de realizar tareas que, hasta hace poco, solo podían
+                    ser ejecutadas por seres humanos. En DuckIO, nuestra pasión
+                    por la IA se refleja en nuestro compromiso de crear sistemas
+                    de aprendizaje automático y algoritmos de procesamiento de
+                    lenguaje natural de vanguardia. Nuestros expertos trabajan
+                    incansablemente en la creación de asistentes virtuales
+                    inteligentes, sistemas de recomendación personalizados y
+                    soluciones de análisis de datos que transforman la forma en
+                    que las empresas toman decisiones estratégicas. La IA está
+                    en el corazón de nuestro enfoque tecnológico y sigue siendo
+                    un campo en constante evolución que impulsa la innovación en
+                    todos los aspectos de la sociedad.
                 </p>
             </div>
 
             <div className={styles.individual_container}>
-                <h1 className={styles.title_section}>Robótica y Automatización</h1>
+                <h1 className={styles.title_section}>Ciberseguridad</h1>
                 <p className={styles.paragraph}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus tincidunt ante id elementum vestibulum. Quisque
-                    varius ligula a ullamcorper consectetur. In consectetur erat
-                    non orci mollis egestas. Vivamus vestibulum ipsum in turpis
-                    volutpat, vel congue odio lobortis. Nulla bibendum ex nec
-                    ultricies varius. Morbi semper ullamcorper dui, vitae
-                    sodales nisl sollicitudin eu. Praesent luctus nibh odio, et
-                    laoreet nisi rhoncus in. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. Cras mattis sapien in enim
-                    aliquet, non bibendum sem tristique. Duis fermentum velit
-                    leo. Cras viverra mattis ipsum, sit amet cursus lectus
-                    vulputate id. Vestibulum euismod ullamcorper quam non
-                    fermentum. Fusce convallis ac nunc sit amet accumsan.
-                    Quisque consectetur justo odio, a pharetra purus suscipit
-                    consequat. Sed eu consequat mi. Ut maximus ullamcorper
-                    consectetur. Donec ut tellus mi. Maecenas purus nunc,
-                    accumsan a risus sit amet, pulvinar consequat ipsum. Cras
-                    lacinia maximus suscipit. Morbi lacinia gravida quam,
-                    commodo pellentesque ante volutpat nec. Ut elementum nibh
-                    sem, ac elementum libero venenatis eu. Pellentesque ultrices
-                    enim vestibulum ex aliquam luctus. Donec a commodo metus.
+                    En un mundo digital donde la información es un activo
+                    crítico, la ciberseguridad se ha convertido en una
+                    preocupación primordial. En DuckIO, nos dedicamos a
+                    salvaguardar los activos digitales de nuestros clientes a
+                    través de soluciones de ciberseguridad sólidas. Nuestros
+                    especialistas en ciberseguridad trabajan incansablemente
+                    para identificar amenazas, desarrollar protocolos de
+                    seguridad avanzados y garantizar la protección de datos
+                    sensibles. Desde la detección de intrusiones hasta la
+                    educación en seguridad cibernética, nuestra misión es
+                    asegurarnos de que nuestros clientes estén un paso por
+                    delante de las amenazas cibernéticas en constante evolución.
+                    La ciberseguridad es esencial para mantener la confianza y
+                    la privacidad en el mundo digital.
                 </p>
             </div>
 
             <div className={styles.individual_container}>
-                <h1 className={styles.title_section}>Big Data y Analítica</h1>
+                <h1 className={styles.title_section}>
+                    Internet de las Cosas (IoT)
+                </h1>
                 <p className={styles.paragraph}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus tincidunt ante id elementum vestibulum. Quisque
-                    varius ligula a ullamcorper consectetur. In consectetur erat
-                    non orci mollis egestas. Vivamus vestibulum ipsum in turpis
-                    volutpat, vel congue odio lobortis. Nulla bibendum ex nec
-                    ultricies varius. Morbi semper ullamcorper dui, vitae
-                    sodales nisl sollicitudin eu. Praesent luctus nibh odio, et
-                    laoreet nisi rhoncus in. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. Cras mattis sapien in enim
-                    aliquet, non bibendum sem tristique. Duis fermentum velit
-                    leo. Cras viverra mattis ipsum, sit amet cursus lectus
-                    vulputate id. Vestibulum euismod ullamcorper quam non
-                    fermentum. Fusce convallis ac nunc sit amet accumsan.
-                    Quisque consectetur justo odio, a pharetra purus suscipit
-                    consequat. Sed eu consequat mi. Ut maximus ullamcorper
-                    consectetur. Donec ut tellus mi. Maecenas purus nunc,
-                    accumsan a risus sit amet, pulvinar consequat ipsum. Cras
-                    lacinia maximus suscipit. Morbi lacinia gravida quam,
-                    commodo pellentesque ante volutpat nec. Ut elementum nibh
-                    sem, ac elementum libero venenatis eu. Pellentesque ultrices
-                    enim vestibulum ex aliquam luctus. Donec a commodo metus.
+                    El Internet de las Cosas (IoT) es una tendencia tecnológica
+                    que promete cambiar la forma en que interactuamos con el
+                    mundo que nos rodea. En DuckIO, nos apasiona la IoT y
+                    desarrollamos soluciones que permiten la conectividad de
+                    objetos cotidianos a la red. Esto significa desde
+                    termostatos inteligentes que ajustan automáticamente la
+                    temperatura de su hogar hasta sensores de salud que
+                    monitorean signos vitales en tiempo real. Estas innovaciones
+                    no solo hacen que nuestras vidas sean más cómodas, sino que
+                    también tienen un impacto significativo en la eficiencia y
+                    la toma de decisiones. La IoT está en constante crecimiento
+                    y evolución, y estamos comprometidos en estar a la
+                    vanguardia de este emocionante campo que cambia el mundo.
                 </p>
             </div>
 
             <div className={styles.individual_container}>
-                <h1 className={styles.title_section}>Tecnología 5G</h1>
+                <h1 className={styles.title_section}>Tecnología Sostenible</h1>
                 <p className={styles.paragraph}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus tincidunt ante id elementum vestibulum. Quisque
-                    varius ligula a ullamcorper consectetur. In consectetur erat
-                    non orci mollis egestas. Vivamus vestibulum ipsum in turpis
-                    volutpat, vel congue odio lobortis. Nulla bibendum ex nec
-                    ultricies varius. Morbi semper ullamcorper dui, vitae
-                    sodales nisl sollicitudin eu. Praesent luctus nibh odio, et
-                    laoreet nisi rhoncus in. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. Cras mattis sapien in enim
-                    aliquet, non bibendum sem tristique. Duis fermentum velit
-                    leo. Cras viverra mattis ipsum, sit amet cursus lectus
-                    vulputate id. Vestibulum euismod ullamcorper quam non
-                    fermentum. Fusce convallis ac nunc sit amet accumsan.
-                    Quisque consectetur justo odio, a pharetra purus suscipit
-                    consequat. Sed eu consequat mi. Ut maximus ullamcorper
-                    consectetur. Donec ut tellus mi. Maecenas purus nunc,
-                    accumsan a risus sit amet, pulvinar consequat ipsum. Cras
-                    lacinia maximus suscipit. Morbi lacinia gravida quam,
-                    commodo pellentesque ante volutpat nec. Ut elementum nibh
-                    sem, ac elementum libero venenatis eu. Pellentesque ultrices
-                    enim vestibulum ex aliquam luctus. Donec a commodo metus.
+                    La sostenibilidad es uno de los mayores desafíos que
+                    enfrentamos en el siglo XXI. En DuckIO, creemos en el poder
+                    de la tecnología para abordar estos desafíos. Desarrollamos
+                    soluciones tecnológicas sostenibles que van desde la energía
+                    renovable hasta la gestión eficiente de recursos. Nuestro
+                    compromiso con la sostenibilidad se refleja en proyectos que
+                    reducen el impacto ambiental y contribuyen a la construcción
+                    de un futuro más limpio y ecológico. La tecnología
+                    sostenible no solo es un imperativo ético, sino también una
+                    fuente inagotable de innovación y progreso. Estamos
+                    decididos a utilizar nuestra experiencia tecnológica para
+                    crear un mundo más sostenible y próspero.
                 </p>
             </div>
         </>
     );
-};
+}

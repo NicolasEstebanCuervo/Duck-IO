@@ -74,6 +74,9 @@ export default async function ListOfPost() {
                         <p className={styles.description_post}>{post.body}</p>
                     </div>
                 </div>
+
+            <hr className={styles.hr_line}></hr>
+
                 <div className={styles.container_comments}>
                     {comments.slice(0, 2).map((comment) => (
                         <div>
