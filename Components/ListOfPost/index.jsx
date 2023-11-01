@@ -75,7 +75,7 @@ export default async function ListOfPost() {
                     </div>
                 </div>
 
-            <hr className={styles.hr_line}></hr>
+                <hr className={styles.hr_line}></hr>
 
                 <div className={styles.container_comments}>
                     {comments.slice(0, 2).map((comment) => (

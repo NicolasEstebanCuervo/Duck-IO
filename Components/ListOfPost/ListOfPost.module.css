@@ -6,11 +6,13 @@
     gap: 3vh;
     border: 1px solid #fff;
     color: #fff;
+    margin-bottom: 5%;
 }
 
 @media (max-width: 400px) {
     .article_container {
         gap: 1vh;
+        margin-bottom: 20%;
     }
 }
 
