@@ -1,14 +1,18 @@
-
 .navbar {
     border: 1px solid white;
     border-radius: 5px;
-    padding: 1%;
+    padding: 2%;
+}
+
+@media (max-width: 400px) {
+    .navbar {
+        padding: 5%;
+    }
 }
 
 .link {
     transition: border-bottom 0.5s ease;
     font-size: 25px !important;
-    transition: border-color 0.3s;
     border: 2px solid transparent;
     text-decoration-line: none;
     color: #fff;
@@ -28,6 +32,7 @@
     display: none;
     flex-direction: column;
     cursor: pointer;
+    align-items: end;
 }
 
 @media (max-width: 768px) {
@@ -38,9 +43,17 @@
 
 .bar {
     width: 25px;
-    height: 3px;
+    height: 4px;
     background-color: white;
     margin: 4px 0;
+}
+
+@media (max-width: 200px) {
+    .bar {
+        width: 20vw;
+        height: 0.4vh;
+        margin: 0.5vh 0;
+    }
 }
 
 .menu {
@@ -55,7 +68,7 @@
     }
 }
 
-.menu.open {
-    background: #fff ;
+.open {
+    display: flex;
     flex-direction: column;
 }

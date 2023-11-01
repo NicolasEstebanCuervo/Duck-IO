@@ -163,13 +163,13 @@
 
 @media (max-width: 600px) {
     .title_post {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 }
 
 @media (max-width: 400px) {
     .title_post {
-        font-size: 5vw;
+        font-size: 6vw;
     }
 }
 

@@ -16,7 +16,7 @@ export default function Navigation () {
                 <div className={styles.bar}></div>
                 <div className={styles.bar}></div>
             </div>
-            <div className={`${styles.menu}${isMenuOpen ? `${styles.open} ` : ""}`}>
+            <div className={`${styles.menu}${isMenuOpen ? `${styles.menu} ${styles.open}` : ""}`}>
                 <a className={styles.link} href="/">Home</a>
                 <a className={styles.link} href="/about">About</a>
                 <a className={styles.link} href="/post">Post</a>
