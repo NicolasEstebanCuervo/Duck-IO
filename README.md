@@ -1,40 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div id="Header" align="center">
 
-## Getting Started
+   <img src="https://media.giphy.com/media/RIkgfue3mXysO7Gw5h/giphy.gif" width="300">   
+   <h1 align="center">Duck IO 🦆 - Finalizado</h1>
 
-First, run the development server:
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### `💻 Proceso de instalacion usando git clone SSH`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Abra la terminal de su computador.
+- Entre al directorio de su preferencia usando (cd "nombre del directorio")
+- Si usted tiene una clave SSH ejecute el comando "git clone git@github.com:NicolasEstebanCuervo/NextProject.git"
+- Abra el repositorio clonado en su editor de codigo de preferencia.
+- En la terminal del editor de codigo ejecute el comando "npm start".
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### `💻 Proceso de instalacion usando git clone HTTPS`
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Abra la terminal de su computador.
+- Entre al directorio de su preferencia usando (cd "nombre del directorio")
+- Si usted no tiene una clave SSH tambien puede usar el metodo git clone con HHTTPS. Solamente tiene que ejecutar el comando "git clone https://github.com/NicolasEstebanCuervo/NextProject.git"
+- Abra el repositorio clonado en su editor de codigo de preferencia.
+- En la terminal del editor de codigo ejecute el comando "npm start".
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### `💻 Proceso de instalacion usando el archivo .zip`
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Descargue el repositorio en el apartado "<>Code" con la opcion "Download ZIP"
+- Dele click derecho y extraer aqui. Espere hasta que el repositorio se haya extraido correctamente.
+- Abra la carpeta que se creo en su editor de codigo de preferencia.
+- En la terminal del editor de codigo ejecute el comando "npm start"
 
-## Learn More
+### `❌ Posible error al ejecutar el proyecto`
 
-To learn more about Next.js, take a look at the following resources:
+- Si usted ejecuta el comando "npm start" Y le sale el siguien error "Error: Cannot find module 'react-scripts'" Esto puede ser debido a un error
+en las dependencia del proyecto. Para solucionarlo abra la terminal del proyecto y ejecute el siguiente comando "npm install react-scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+###  📘 Librerias usadas:
+   
+En caso tal de que te interese alguna de las librerias usadas aca te dejo una lista donde puedes encontrarlas:
 
-## Deploy on Vercel
+- Emotion Css : npm install@emotion/css.
+- Emotion React : npm install @emotion/react.
+- Emotion Styled : npm install @emotion/styled.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
